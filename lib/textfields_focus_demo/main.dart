@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-void main(){
-  runApp(new MyApp());
+import 'textfields_focus_demo.dart';
 
+void main() {
+  runApp(new MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'flutter demo',
       theme: new ThemeData.light(),
-      home: SearchBarDemo(),
+      home: EditFieldFocusDemo(),
     );
   }
 }
